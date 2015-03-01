@@ -61,7 +61,7 @@ public class StoryActivity extends Activity {
 
         if (mCurrentPage.isFinal()) {
             mChoice1.setVisibility(View.INVISIBLE);
-            mChoice2.setText("PLAY AGAIN");
+            mChoice2.setText("JUGAR DE NUEVO");
             mChoice2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

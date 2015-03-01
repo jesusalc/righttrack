@@ -13,41 +13,41 @@ public class Story {
 
         mPages[0] = new Page(
                 R.drawable.page0,
-                "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \"Help me, %1$s, you're my only hope.\"",
-                new Choice("Stop and investigate", 1),
-                new Choice("Continue home to Earth", 2));
+                "En su viaje de regreso desde el estudio de los anillos de Saturno, se oye una señal de socorro que parece venir de la superficie de Marte. Es extraño porque no ha habido una colonia allí en años. Aún más extraño, le está llamando por su nombre: \"Ayúdame, %1$s, eres mi única esperanza.\"",
+                new Choice("Detengase e investige", 1),
+                new Choice("Continuar a la Tierra", 2));
 
         mPages[1] = new Page(
                 R.drawable.page1,
-                "You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandoned rover from the early 21st century.",
-                new Choice("Explore the cave", 3),
-                new Choice("Explore the rover", 4));
+                "Usted hábilmente aterrizar su nave cerca de donde se originó la señal de socorro. Usted no nota algo extraño en su acercamiento, pero no hay una cueva en frente de usted. Detrás de ti es una Nave abandonada de principios del siglo 21.",
+                new Choice("Explore la cueva", 3),
+                new Choice("Explorar la Nave", 4));
 
         mPages[2] = new Page(
                 R.drawable.page2,
-                "You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abandoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run much longer than planned and supplies are low.",
-                new Choice("Head back to Mars to investigate", 4),
-                new Choice("Continue home to Earth", 6));
+                "Usted sigue su curso a la Tierra. Dos días más tarde, recibe una transmisión de la Tierra diciendo que han detectado algún tipo de anomalía en la superficie de Marte, cerca de una estación móvil abandonado. Te piden que investigue, pero en última instancia la decisión es suya porque su misión ya se ha ejecutado mucho más tiempo de lo previsto y los suministros están bajos.",
+                new Choice("Devolverse de vuelta a Marte para investigar", 4),
+                new Choice("Continuar a la Tierra", 6));
 
         mPages[3] = new Page(
                 R.drawable.page3,
-                "Your EVA suit is equipped with a headlamp, which you use to navigate the cave. After searching for a while your oxygen levels are starting to get pretty low. You know you should go refill your tank, but there's a very faint light up ahead.",
-                new Choice("Refill at ship and explore the rover", 4),
-                new Choice("Continue towards the faint light", 5));
+                "Su traje astronauta está equipado con un luces, que se utiliza para navegar por la cueva. Después de buscar durante un tiempo sus niveles de oxígeno están empezando a bajar. Usted sabe que debe ir rellenar su tanque, pero hay una luz muy tenue adelante.",
+                new Choice("Vuelva a llenarse en su Nave y explorar la Nave abandonada", 4),
+                new Choice("Continuar hacia la luz tenue", 5));
 
         mPages[4] = new Page(
                 R.drawable.page4,
-                "The rover is covered in dust and most of the solar panels are broken. But you are quite surprised to see the on-board system booted up and running. In fact, there is a message on the screen: \"%1$s, come to 28.543436, -81.369031.\" Those coordinates aren't far, but you don't know if your oxygen will last there and back.",
-                new Choice("Explore the coordinates", 5),
-                new Choice("Return to Earth", 6));
+                "La Nave abandonada está cubierta de polvo y la mayoría de los paneles solares están rotos. Pero usted es bastante sorprendido de ver el sistema de a bordo prendido y funcionando. De hecho, hay un mensaje en la pantalla: \"%1$s, vienen a 28.543436, -81.369031.\" Esas coordenadas no están muy lejos, pero usted no sabe si su oxígeno durará ida y vuelta.",
+                new Choice("Explore hacia coordenadas", 5),
+                new Choice("Regresar a la Tierra", 6));
 
         mPages[5] = new Page(
                 R.drawable.page5,
-                "After a long walk slightly uphill, you end up at the top of a small crater. You look around, and are overjoyed to see your favorite android, %1$s-S1124. It had been lost on a previous mission to Mars! You take it back to your ship and fly back to Earth.");
+                "Después de un largo paseo un poco cuesta arriba, llegas a la parte superior de un pequeño cráter. Miras a tu alrededor, y está encantado de ver a tu Android favorito,%1$s-S1124. Se había perdido en una misión anterior a Marte! Se toma de nuevo a su nave y volar de vuelta a la Tierra.");
 
         mPages[6] = new Page(
                 R.drawable.page6,
-                "You arrive home on Earth. While your mission was a success, you forever wonder what was sending that signal. Perhaps a future mission will be able to investigate...");
+                "Llega a su casa en la Tierra. Mientras que su misión fue un éxito, que siempre se pregunta lo enviaba esa señal. Quizás una futura misión será capaz de investigar ...");
     }
 
     public Page getPage(int pageNumber) {
